@@ -52,9 +52,10 @@ filtered_df = df[
 ]
 
 # -----------------------
-# SORT DATA
+# SORT + FIX SERIAL NUMBER
 # -----------------------
 filtered_df = filtered_df.sort_values(by="Price", ascending=False)
+filtered_df = filtered_df.reset_index(drop=True)   # ✅ fixes serial numbers
 
 # -----------------------
 # DISPLAY TABLE (₹ FORMAT)
@@ -71,4 +72,4 @@ st.dataframe(df_display, use_container_width=True)
 # -----------------------
 st.subheader("📊 Price Distribution")
 
-st.bar_chart(filtered_df.set_index("Title")["Price"])
+st.bar_chart(filtered_df["Price"])
