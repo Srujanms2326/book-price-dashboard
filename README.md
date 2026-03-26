@@ -6,7 +6,7 @@ An interactive data dashboard built using **Python** that scrapes, cleans, and v
 
 ## 🚀 Live Demo
 
-🔗 https://book-price-dashboard.streamlit.app
+🔗 [https://book-price-dashboard.streamlit.app](https://book-price-dashboard-gignwreji8zcwpyxaabpa3.streamlit.app/)
 
 ---
 
