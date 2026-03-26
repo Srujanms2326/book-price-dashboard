@@ -73,8 +73,7 @@ streamlit run dashboard.py
 ## 📸 Screenshots
 
 ### 📊 Dashboard View
-![Dashboard](<img width="1916" height="450" alt="dashboard-preview" src="https://github.com/user-attachments/assets/0b2932f4-ea56-48a3-aab9-62e790d95b37" />
-)
+![Dashboard](dashboard-preview.png)
 
 ### 🔍 Filter Feature
 ![Filter](<img width="1919" height="473" alt="Filter" src="https://github.com/user-attachments/assets/c019a1ae-4382-4b78-a9e4-3bd1e40b21c5" />
